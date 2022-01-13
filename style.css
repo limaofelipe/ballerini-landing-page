@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%) no-repeat;
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+
+.cabecalho__imagem{
+  height: 4.5rem;
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.cabecalho__menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.conteudo {
+  margin-bottom: 3rem;
+  border-top: 0.1px solid #FFF2E7;
+}
+
+.conteudo__principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo__principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.conteudo__principal-escrito-titulo{
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #FFF2E7;
+}
+
+.conteudo__principal-escrito-subtitulo{
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.conteudo__principal-escrito-botao{
+  font-family: 'Sarala', sans-serif;
+  color: #2F2325;
+  font-size: 1.5rem;
+  background-color: #FFF2E7;
+  width: 11.5rem;
+  height: 4.1rem;
+  border: none;
+  border-radius: 2.25rem;
+  cursor: pointer;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.2s;
+}
+
+.conteudo__principal-escrito-botao:hover{
+  background-color: rgba( 236, 214, 196, 0.53);
+}
+
+.conteudo__principal-imagem{
+  height: 26.8rem;
+}
+
+.conteudo_secundario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.conteudo_secundario-titulo{
+  border-top: 0.1px solid #FFF2E7;
+  padding-top: 3rem;
+  font-family: 'Sarala', sans-serif;
+  font-size: 1.5rem;
+  color: #FFF2E7;
+}
+
+.conteudo_secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #FFF2E7;
+}
+
+.rodape{
+  padding: 2rem;
+  border-top: 0.1px solid #FFF2E7;
+}
+
+.rodape__imagem {
+  height: 3rem;
+  display: block;
+  margin: 0 auto;
+}
